@@ -51,28 +51,28 @@
       <file leaf-file-name="app.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+            <state relative-caret-position="558">
+              <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
               <folding>
                 <element signature="e#46#100#0" expanded="true" />
-                <marker date="1461692144000" expanded="true" signature="699:957" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="738:942" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="774:837" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="873:923" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="998:1705" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="1064:1117" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="1172:1690" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="1206:1419" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="1254:1393" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="1304:1368" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="1453:1672" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="1503:1646" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="1555:1621" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="2374:2858" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="2457:2561" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="2589:2689" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="2751:2846" placeholder="..." />
-                <marker date="1461692144000" expanded="true" signature="2896:2947" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="925:1183" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="964:1168" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="1000:1063" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="1099:1149" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="1224:1992" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="1290:1343" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="1459:1977" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="1493:1706" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="1541:1680" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="1591:1655" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="1740:1959" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="1790:1933" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="1842:1908" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="2661:3145" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="2744:2848" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="2876:2976" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="3038:3133" placeholder="..." />
+                <marker date="1461697027000" expanded="true" signature="3183:3290" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -81,7 +81,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="492">
               <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
               <folding />
             </state>
@@ -247,7 +247,7 @@
       <option name="presentableId" value="Default" />
       <updated>1461673221146</updated>
       <workItem from="1461673222892" duration="6957000" />
-      <workItem from="1461690882339" duration="1303000" />
+      <workItem from="1461690882339" duration="4189000" />
     </task>
     <task id="LOCAL-00001" summary="Hello world with basic Component, component class(model), app start, view reference; turns out explicit import of NgFor not needed.">
       <created>1461676526308</created>
@@ -270,11 +270,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461681599066</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fat Models, Skinny Controllers, also, Angular 2 has typing!">
+      <created>1461692244238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1461692244238</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8260000" />
+    <option name="totallyTimeSpent" value="11146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1394" height="839" extended-state="0" />
@@ -283,11 +290,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14979196" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15003641" sideWeight="0.51317614" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15003641" sideWeight="0.51317614" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07628294" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15003641" sideWeight="0.48682386" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14930809" sideWeight="0.48682386" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -312,7 +319,8 @@
     <MESSAGE value="Hello world with basic Component, component class(model), app start, view reference; turns out explicit import of NgFor not needed." />
     <MESSAGE value="Shift to reddit base" />
     <MESSAGE value="Add second component: reddit-article" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add second component: reddit-article" />
+    <MESSAGE value="Fat Models, Skinny Controllers, also, Angular 2 has typing!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fat Models, Skinny Controllers, also, Angular 2 has typing!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -333,24 +341,24 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#46#100#0" expanded="true" />
-            <marker date="1461692144000" expanded="true" signature="699:957" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="738:942" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="774:837" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="873:923" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="998:1705" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1064:1117" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1172:1690" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1206:1419" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1254:1393" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1304:1368" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1453:1672" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1503:1646" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1555:1621" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="2374:2858" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="2457:2561" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="2589:2689" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="2751:2846" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="2896:2947" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="925:1183" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="964:1168" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1000:1063" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1099:1149" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1224:1992" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1290:1343" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1459:1977" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1493:1706" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1541:1680" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1591:1655" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1740:1959" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1790:1933" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1842:1908" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="2661:3145" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="2744:2848" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="2876:2976" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="3038:3133" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="3183:3290" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -387,7 +395,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="492">
           <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
           <folding />
         </state>
@@ -395,28 +403,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state relative-caret-position="558">
+          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
           <folding>
             <element signature="e#46#100#0" expanded="true" />
-            <marker date="1461692144000" expanded="true" signature="699:957" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="738:942" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="774:837" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="873:923" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="998:1705" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1064:1117" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1172:1690" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1206:1419" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1254:1393" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1304:1368" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1453:1672" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1503:1646" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="1555:1621" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="2374:2858" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="2457:2561" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="2589:2689" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="2751:2846" placeholder="..." />
-            <marker date="1461692144000" expanded="true" signature="2896:2947" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="925:1183" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="964:1168" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1000:1063" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1099:1149" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1224:1992" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1290:1343" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1459:1977" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1493:1706" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1541:1680" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1591:1655" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1740:1959" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1790:1933" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="1842:1908" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="2661:3145" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="2744:2848" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="2876:2976" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="3038:3133" placeholder="..." />
+            <marker date="1461697027000" expanded="true" signature="3183:3290" placeholder="..." />
           </folding>
         </state>
       </provider>

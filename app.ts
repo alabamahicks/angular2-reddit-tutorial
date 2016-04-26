@@ -18,6 +18,15 @@ class Article {
         this.votes = votes || 0;
     }
 
+    domain(): string {
+        try {
+            const link: string = this.link.split('//')[1];
+            return link.split('/')[0];
+        } catch (err) {
+            return null;
+        }
+    }
+
     voteUp(): void {
         this.votes += 1;
     }
@@ -28,6 +37,7 @@ class Article {
 
 @Component({
     selector: 'reddit-article',
+    inputs: ['article'],
     host: {
         class: 'row'
     },
@@ -46,6 +56,7 @@ class Article {
             <a class="ui large header" href="{{ article.link }}">
                 {{ article.title }}
             </a>
+            <div class="meta">({{ article.domain() }})</div>
             <ul class="ui big horizontal list voters">
                 <li class="item">
                     <a href (click)="voteUp()">
@@ -110,7 +121,7 @@ class ArticleComponent {
     </form>
     
      <div class="ui grid posts">
-      <reddit-article></reddit-article>
+      <reddit-article *ngFor="#foobar of sortedArticles()" [article]="foobar"></reddit-article>
     </div>
     `
 })
@@ -128,6 +139,16 @@ class RedditApp {
 
     addArticle(title: HTMLInputElement, link: HTMLInputElement): void {
         console.log(`Adding article title: ${title.value} and link: ${link.value}`);
+        // create a new Article instance with submitted title and URL
+        // add the new instance to the array of Articles
+        this.articles.push(new Article(title.value, link.value, 0));
+        // clear the input values
+        title.value = '';
+        link.value = '';
+    }
+
+    sortedArticles(): Article[] {
+        return this.articles.sort((a: Article, b: Article) => b.votes - a.votes);
     }
 }
 
