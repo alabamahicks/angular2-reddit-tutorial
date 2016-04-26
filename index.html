@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Angular 2 - Hello World</title>
-
+<!doctype html>
+<html>
+  <head>
+    <title>Angular 2 - Simple Reddit</title>
+    <link rel="icon" type="image/png" href="resources/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="resources/images/favicon.ico" />
     <!-------------Libraries---------------->
     <!-- Shims help adapt between cross browsers to a standardized behavior,
     especially for older IE-->
@@ -18,26 +18,44 @@
     <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
 
     <!-------------Stylesheet---------------->
-    <!-- Semanti-UI is a CSS framework, similar to Foundation or Bootstrap-->
+    <!-- Semantic-UI is a CSS framework, similar to Foundation or Bootstrap-->
     <link rel="stylesheet" type="text/css" href="resources/vendor/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
 
-
-</head>
-<body>
+    <!-- Configure System.js, our module loader -->
     <script>
-        System.config({
-            packages: {
-                app: {
-                    format: 'register',
-                    defaultExtension: 'js'
-                }
-            }
-        });
-        System.import('app.js')
-                .then(null, console.error.bind(console));
+      System.config({
+        packages: {        
+          app: {
+            format: 'register',
+            defaultExtension: 'js'
+          }
+        }
+      });
+      System.import('app.js')
+            .then(null, console.error.bind(console));
     </script>
 
-    <hello-world></hello-world>
-</body>
+    <!-- Menu Bar -->
+    <div class="ui menu">
+      <div class="ui container">
+        <a href="#" class="header item">
+          <img class="logo" src="resources/images/ng-book-2-minibook.png">
+          ng-book 2
+        </a>
+        <div class="header item borderless">
+          <h1 class="ui header">
+            Angular 2 Simple Reddit
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui main text container">
+      <reddit></reddit> <!-- <--- Our app loads here! -->
+    </div>
+
+  </body>
 </html>
