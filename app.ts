@@ -5,6 +5,27 @@
 import { bootstrap } from "angular2/platform/browser";
 import { Component } from "angular2/core";
 
+
+// Class with no Component; In MVC, this is the Model.
+class Article {
+    title: string;
+    link: string;
+    votes: number;
+
+    constructor(title: string, link: string, votes?: number) {
+        this.title = title;
+        this.link = link;
+        this.votes = votes || 0;
+    }
+
+    voteUp(): void {
+        this.votes += 1;
+    }
+    voteDown(): void {
+        this.votes -= 1;
+    }
+}
+
 @Component({
     selector: 'reddit-article',
     host: {
@@ -14,7 +35,7 @@ import { Component } from "angular2/core";
         <div class="four wide column center aligned votes">
             <div class="ui statistic">
                 <div class="value">
-                    {{ votes }}
+                    {{ article.votes }}
                 </div>
                 <div class="label">
                     Points
@@ -22,8 +43,8 @@ import { Component } from "angular2/core";
             </div>
         </div>
         <div class="twelve wide column">
-            <a class="ui large header" href="{{ link }}">
-                {{ title }}
+            <a class="ui large header" href="{{ article.link }}">
+                {{ article.title }}
             </a>
             <ul class="ui big horizontal list voters">
                 <li class="item">
@@ -45,28 +66,30 @@ import { Component } from "angular2/core";
         
 `
 })
+    // Fat Models, Skinny Controllers
 class ArticleComponent {
-    votes: number;
-    title: string;
-    link: string;
+    article: Article;
 
     constructor() {
-        this.title = 'Angular 2';
-        this.link = 'http://angular.io';
-        this.votes = 10;
+        this.article = new Article('Angular 2', 'http://angular.io', 10);
     }
 
-    voteUp() {
-        this.votes += 1;
+    voteUp(): boolean {
+        this.article.voteUp();
+        // ensure browser won't try to refresh the page:
+        return false;
     }
-    voteDown() {
-        this.votes -= 1;
+    voteDown(): boolean {
+        this.article.voteDown();
+        // ensure browser won't try to refresh the page:
+        return false;
     }
 }
 
 // Main component comes after dependent components
 @Component({
     selector: 'reddit',
+    directives: [ArticleComponent],
     template: `
     <form class="ui large form segment">
         <h3 class="ui header">Add a Link</h3>
@@ -85,11 +108,22 @@ class ArticleComponent {
             Submit link
         </button>
     </form>
+    
+     <div class="ui grid posts">
+      <reddit-article></reddit-article>
+    </div>
     `
 })
     // Component definition class with property/type and value
 class RedditApp {
+    articles: Article[];
+
     constructor() {
+        this.articles = [
+            new Article('Angular 2', 'http://angular.io', 3),
+            new Article('Fullstack', 'http://fullstack.io', 2),
+            new Article('Angular Homepage', 'http://angular.io', 1)
+        ]
     }
 
     addArticle(title: HTMLInputElement, link: HTMLInputElement): void {
