@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Angular 2 - Simple Reddit</title>
+    <title>Angular 2 - Hello World</title>
 
     <!-------------Libraries---------------->
     <!-- Shims help adapt between cross browsers to a standardized behavior,
@@ -25,6 +25,19 @@
 
 </head>
 <body>
+    <script>
+        System.config({
+            packages: {
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('app.js')
+                .then(null, console.error.bind(console));
+    </script>
 
+    <hello-world></hello-world>
 </body>
 </html>
